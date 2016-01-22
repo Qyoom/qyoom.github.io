@@ -7,7 +7,7 @@ Inspired by reading the first chapter in Enrico Coen's *Cells to Civilizations, 
 
 Coen presents four principles that are at play in the process of natural selection. The first three, variation, competition, and persistence, are represented in this first model I've rendered to illustrate his example. A fourth principle, reinforcement, representing the effect of survival-based bias, will be added to the mix in the third posting in this series.
 
-####Cycles of selection and replication drifting toward convergence
+####Cycles of selection and replication drifting toward convergence (click page refresh)
 
 <div id="chart"></div>
 
