@@ -34,7 +34,7 @@ Of the four principles that Coen presents, reinforcement is left out of the pict
 
 In his book, Coen includes an illustration of the marbles as small circles inside of a large circle which acts as their population boundary. In the next post I will bring this more figurative representation to life with a model that includes each individual marble as the cycles of selection and replications take place in "real" time.
 
-[Javascript code used in this visualization](https://github.com/Qyoom/qyoom.github.io/tree/master/assets/javascripts)
+[Javascript code used in this visualization](https://github.com/Qyoom/qyoom.github.io/tree/master/assets/custom_js)
 
 [Earlier Scala version that preceded this visualization](https://github.com/Qyoom/ScalaLab3/blob/master/src/main/scala/books/cells_to_civilizations/ch1/PopulationDrift5.scala)
 
