@@ -3,7 +3,7 @@ layout: post
 title:  "Natural Selection and Population Drift (Part 1)"
 date:   2016-01-20 11:18:25 -0800
 ---
-Inspired by reading the first chapter in Enrico Coen's *Cells to Civilizations, The Principles of Change That Shape Life*, I decided to code my interpretation of the algorithm he describes for using two colors of marble to demonstrate population drift.
+Inspired by reading the first chapter in Enrico Coen's *Cells to Civilizations, The Principles of Change That Shape Life*, I decided to code and visualize my interpretation of the algorithm he describes for using two colors of marble to demonstrate population drift.
 
 Coen presents four principles that are at play in the process of natural selection. The first three, variation, competition, and persistence, are represented in this first model I've rendered to illustrate his example. A fourth principle, reinforcement, representing the effect of survival-based bias, will be added to the mix in the third posting in this series.
 
