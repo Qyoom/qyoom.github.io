@@ -66,7 +66,7 @@ function replicate(marbles, maxPopSize) {
     if(maxPopSize - result.length === 1) { // Accounts for odd numbered arrays
         result.push(spawnSingle(_.sample(newPop,1)));
     }
-    console.log("replicate, result: " + JSON.stringify(result));
+    //console.log("replicate, result: " + JSON.stringify(result));
     return result;
 }
 

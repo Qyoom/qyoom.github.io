@@ -3,7 +3,7 @@ layout: post
 title:  "Natural Selection and Population Drift (Part 1)"
 date:   2016-01-20 11:18:25 -0800
 ---
-Inspired by reading the first chapter in Enrico Coen's *Cells to Civilizations*, I decided to code my interpretation of the algorithm he describes for using two colors of marble to characterize the properties of population drift. Coen poses four principles whereby...
+Inspired by reading the first chapter in Enrico Coen's *Cells to Civilizations, The Principles of Change That Shape Life*, I decided to code my interpretation of the algorithm he describes for using two colors of marble to demonstrate population drift. Coen poses four principles whereby...
 
 <div id="chart"></div>
 
@@ -71,7 +71,10 @@ Inspired by reading the first chapter in Enrico Coen's *Cells to Civilizations*,
       .data(data)
     .enter().append("g")
       .attr("class", "cycle")
-      .attr("transform", function(d) { return "translate(" + x(d[0]) + ",0)"; });
+      .attr("transform", function(d) { 
+        console.log("x(d[0]): " + x(d[0]));
+        return "translate(" + x(d[0]) + ",0)"; 
+      });
 
   cycle.selectAll("rect")
       .data(function(d) { return d.colors; })
@@ -80,7 +83,6 @@ Inspired by reading the first chapter in Enrico Coen's *Cells to Civilizations*,
       .attr("y", function(d) { return y(d.y1); })
       .attr("height", function(d) { return y(d.y0) - y(d.y1); })
       .style("fill", function(d) { return color(d.name); });
-
 
 </script>
 

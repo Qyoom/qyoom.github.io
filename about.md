@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I'm a Scala and Javascript programmer, a former (and rebooting) graphic designer, an incurable journaler. I live at the library, a local hacker space, and a burrow deep in the woods. I keep my mind on a very long leash. My heros are Amy Goodman, Leonardo Fibonacci, Mike Bostock, Robert Duchamp, Saul Steinberg, Joseph Cornell, Rube Goldberg, Krazy Kat, Ai Weiwei, The Brothers Quay, to name a random few...
+I'm a Scala and Javascript programmer, a former (and rebooting) graphic designer, an incurable journaler. I live at the library, a local hacker space, and a burrow deep in the woods. I keep my mind on a very long leash. My heros are Amy Goodman, Leonardo Fibonacci, Robert Duchamp, Saul Steinberg, Gertrude Stein, Rube Goldberg, Krazy Kat, Ai Weiwei, and The Brothers Quay, to name a random few...
 
 ### Thinking in Models
 
