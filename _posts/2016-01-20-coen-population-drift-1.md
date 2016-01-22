@@ -16,15 +16,11 @@ Coen presents four principles that are at play in the process of natural selecti
 <script src="/assets/custom_js/pop_drift_lab_8x.js"></script>
 <script src="/assets/custom_js/pop_drift_1_D3.js"></script>
 
-####The model algorithm
+####Timeline model showing shape of random selection
 
-The algorithm itself was pretty straight forward (see code links below). The model starts with collection of 1000 marbles evenly divided between 500 orange and 500 blue. 200 marbles are randomly sampled (i.e. a lottery) and subsequently replicate themselves back to the maximum population size of 1000. Then, another random sample of 200 marbles is taken and the cycle repeats itself until the total population has become either blue or orange thereby achieving a fixed state.
+I chose a use simple stacked bar chart in D3js. An interesting phenomena is that the population often meanders and may at times seem about to converge to one color only to drift away and ultimately converge on the opposite color. The algorithm itself was pretty straight forward (see code links below). The model starts with collection of 1000 marbles evenly divided between 500 orange and 500 blue. 200 marbles are randomly sampled (i.e. a lottery) and subsequently replicate themselves back to the maximum population size of 1000. Then, another random sample of 200 marbles is taken and the cycle repeats itself until the total population has become either blue or orange thereby achieving a fixed state.
 
 Each time you click the page refresh icon in your browser address bar you will observe a new sequence as described above. You will usually need to scroll to the right to see the whole sequence of selection-replication cycles. Give it a try.
-
-####Bar chart as timeline showing shape of random selection
-
-I chose a simple stacked bar chart (D3js) to represent the progression of population ratios resulting from each cycle of lottery selection and replication. An interesting phenomena is that the population often meanders and may at times seem about to converge to one color only to drift away and ultimately converge on the opposite color.
 
 ####3 of 4 principles at work
 
