@@ -11,10 +11,10 @@ Coen presents four principles that are at play in the process of natural selecti
 
 <div id="chart"></div>
 
-<script src="/assets/javascripts/d3.min.js" charset="utf-8"></script>
-<script src="/assets/javascripts/underscore-min.js"></script>
-<script src="/assets/javascripts/pop_drift_lab_8x.js"></script>
-<script src="/assets/javascripts/pop_drift_1_D3.js"></script>
+<script src="/assets/js_libs/d3.min.js" charset="utf-8"></script>
+<script src="/assets/js_libs/underscore-min.js"></script>
+<script src="/assets/custom_js/pop_drift_lab_8x.js"></script>
+<script src="/assets/custom_js/pop_drift_1_D3.js"></script>
 
 ####The model algorithm
 
