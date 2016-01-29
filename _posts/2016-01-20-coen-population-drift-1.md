@@ -36,5 +36,7 @@ In his book, Coen includes an illustration of the marbles as small circles insid
 
 [Earlier Scala version that preceded this visualization](https://github.com/Qyoom/ScalaLab3/blob/master/src/main/scala/books/cells_to_civilizations/ch1/PopulationDrift5.scala)
 
+[Next: Natural Selection and Population Drift (Part 2)](http://qyoom.github.io/coen-population-drift-2/)
+
 
 

@@ -3,9 +3,9 @@ layout: post
 title:  "Natural Selection and Population Drift (Part 2)"
 date:   2016-01-20 11:18:25 -0800
 ---
-In [Part 1 of this series](http://qyoom.github.io/coen-population-drift-1/) I used a stacked bar chart to visualize my interpretation of the population drift algorithm described by Enrico Coen in the first chapter of his book *Cells to Civilizations, The Principles of Change That Shape Life*. See that post for an overview of the four main principles Coen explains are at play in evolution (variation, competition, persistence, reinforcement). Here I have used what in D3js is called packed circles, or bubble chart, to render a more figurative, real-time version of the algorithm.
+In [Part 1 of this series](http://qyoom.github.io/coen-population-drift-1/) I used a stacked bar chart to visualize my interpretation of the population drift algorithm described by Enrico Coen in the first chapter of his book *Cells to Civilizations, The Principles of Change That Shape Life*. See that post for an overview of the four main principles Coen explains are at play in evolution (variation, competition, persistence, reinforcement). Here I have used what in D3js is called packed circles, or bubble chart, to render a more figurative, real-time version of the algorithm (Note: may take up to 5 or more minutes to complete).
 
-####Cycles of selection and replication drifting toward convergence (may take up to 5 or more minutes)
+####Cycles of selection and replication drifting toward convergence
 
 <div id="chart"></div>
 
@@ -21,7 +21,7 @@ What is apparent to me in comparing these two visualizations is that the [stacke
 
 ####Early days of a project in progress
 
-I must also confess that the current implementation shown here is still rough around the edges. I am yet a newbie with D3js and am learning the details of using this powerful and elegant visualization library. When I do get it smoothed out I think the literal figurative nature of the visualization can provide an interesting experience of the dynamic complexity of an evolving process. However it is not easy to see the shape or direction of the drift, at least not without spending several minutes closely watching. It will eventually converge to one or the other color. I know because I've watched it a few times. It's a little like watching snow on an old style TV screen if you are old enough to remember that.
+I must also confess that the current implementation shown here is still rough around the edges. I am yet a newbie with D3js and am learning the details of using this powerful and elegant visualization library. When I do get it smoothed out I think the figurative nature of the visualization can provide an interesting experience of the dynamic complexity of an evolving process. However it is not easy to see the shape or direction of the drift, at least not without spending several minutes closely watching. It will eventually converge to one or the other color. I know because I've watched it a few times. It's a little like watching snow on an old style TV screen if you are old enough to remember that.
 
 I want to compare more examples of this contrast between abstract and literal representations of phenomena as this project progresses. This will naturally involve some consideration of motive, intent, and effect of what is being studied or observed. I will have more observations and discoveries to share in upcoming posts.
 
@@ -30,6 +30,5 @@ I want to compare more examples of this contrast between abstract and literal re
 To finish the treatment of Coen's four principles of evolution I will include biased sampling in the algorithm and let the visualization show its effect. From there, Coen takes us into genes and ecosystems.
 
 [Javascript code used in this visualization](https://github.com/Qyoom/qyoom.github.io/tree/master/assets/custom_js/MarblesSim12.js)
-
 
 
