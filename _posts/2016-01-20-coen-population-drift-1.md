@@ -26,11 +26,13 @@ Each time you click the page refresh icon in your browser address bar you will o
 
 Of the four principles that Coen presents, reinforcement is left out of the picture in this version of the algorithm. Variation is represented by some marbles being orange and some being blue. Competition (i.e. the struggle for survival) exists because of finite resources which is represented by imposing a maximum population size of 1000. 200 marbles are randomly selected and persistence means that they are the ones that replicate back to the maximum population size. Reinforcement happens when a trait or feature that is inherited from one generation to the next helps promote the survivability of the individual. The presence of random variation, struggle for survival (competition), and persistence of traits shows that populations can evolve (i.e. change, with some traits going extinct) even when bias is not a factor. In other words evolution does not depend on natural selection (i.e. bias towards one trait or another).
 
-####Next: Introducing reinforcement and bias
+####Next: A different view: using the D3js stacked circles layout
 
 In his book, Coen includes an illustration of the marbles as small circles inside of a large circle which acts as their population boundary. In the next post I will bring this more figurative representation to life with a model that includes each individual marble as the cycles of selection and replications take place in "real" time.
 
-[Javascript code used in this visualization](https://github.com/Qyoom/qyoom.github.io/tree/master/assets/custom_js)
+[Javascript code used to generate the simulation data](https://github.com/Qyoom/qyoom.github.io/blob/master/assets/custom_js/pop_drift_lab_8x.js)
+
+[D3js code used to create the visualization](https://github.com/Qyoom/qyoom.github.io/blob/master/assets/custom_js/pop_drift_1_D3.js)
 
 [Earlier Scala version that preceded this visualization](https://github.com/Qyoom/ScalaLab3/blob/master/src/main/scala/books/cells_to_civilizations/ch1/PopulationDrift5.scala)
 
