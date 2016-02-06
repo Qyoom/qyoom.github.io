@@ -3,7 +3,7 @@ layout: post
 title:  "Gaining Facility with D3js General Update Pattern"
 date:   2016-02-5 11:18:25 -0800
 ---
-We enter, we update, we exit (gracefully...)
+We enter, we update, we exit (with object constancy)
 
 <div id="alphaPack"></div>
 
