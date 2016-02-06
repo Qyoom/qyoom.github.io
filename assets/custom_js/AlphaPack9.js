@@ -57,6 +57,7 @@ function update(data) {
         .attr("dy", ".25em")
         .text(function(d) { return d.id; });   
 
+    // All
     node.transition().duration(750)
         .attr("transform", function(d) {
             return "translate(" + d.x + ", " + d.y + ")";
