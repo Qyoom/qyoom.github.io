@@ -28,7 +28,6 @@ function update(data) {
         });
 
     // Data join by key to circles
-    // TODO: Research. This seems to have the needed effect, yet it is not referenced!
     var circles = svg.selectAll("circle")
         .data(nodes, function(d) {
             return d.id; 
@@ -37,7 +36,6 @@ function update(data) {
     // UPDATE
     node.selectAll("circle")
         .attr("class", function(d, i) {
-        //console.log("UPDATE, d.id: " + d.id)
         var result = d.id === "charContainer" ? "container_16_2_5" : "update_16_2_5";
             return result;
     });
