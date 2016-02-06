@@ -31,4 +31,6 @@ Although that implementation does a passable job simulating individual agents ac
 
 [Javascript code used in this visualization](https://github.com/Qyoom/qyoom.github.io/tree/master/assets/custom_js/MarblesSim12.js)
 
+[Next: Gaining Facility with D3js General Update Pattern](http://qyoom.github.io/d3-gen-update-pattern/)
+
 
