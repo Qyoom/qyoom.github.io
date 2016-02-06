@@ -75,7 +75,7 @@ var pack = d3.layout.pack()
 function update(pop) {
     var nodes = pack.nodes(pop);
 
-    // update all subsequen data
+    // update all subsequent data
     var node = canvas.selectAll(".node")
         .data(nodes);
 
