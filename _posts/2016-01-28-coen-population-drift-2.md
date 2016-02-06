@@ -25,9 +25,9 @@ The current implementation shown here is still rough around the edges. I am stil
 
 I want to compare more examples of this contrast between abstract and literal representations of phenomena as this project progresses. This will naturally involve some consideration of motive and effect for what is under study. I will have more observations and discoveries to share in upcoming posts.
 
-####Next: Introducing reinforcement and bias
+####Next: Gaining Facility with D3js General Update Pattern
 
-To finish the treatment of Coen's four principles of evolution I will include biased sampling in the algorithm and let the visualization show its effect. From there, Coen takes us into genes and ecosystems.
+Although that implementation does a passable job simulating individual agents acting out evolutional principles of selection, competition, and replication in a population, I realize I need to get a better handle on the D3js "general update pattern" so that individual agent state remains coherent and trackable between cycles of dynamic change.
 
 [Javascript code used in this visualization](https://github.com/Qyoom/qyoom.github.io/tree/master/assets/custom_js/MarblesSim12.js)
 
