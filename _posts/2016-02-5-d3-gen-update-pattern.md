@@ -19,7 +19,7 @@ In [Part 2 of this series](http://qyoom.github.io/coen-population-drift-2/) I at
 
 ####Lost and found in translation
 
-I started by studying Mike Bostock's three-part [General Update Pattern tutorials](https://bl.ocks.org/mbostock/3808234). (Bostock is the creator of D3). I then worked to translate this pattern from the horizontal linear axis layout in Bostock's tutorials to what is called a "pack" layout which is hierarchical and typically represented as circles nested within other circles. Because of the hierarchical nature, and my basic unfamiliarity with the API, this took quite a bit of trial and error on my part. I was delighted to pull it off in the end as it gives me some confidence that I will be able to have the kind of control over agents in models that have greater complexity. I plan to go back now and improve the implementation of the last weeks simulation.
+I started by studying Mike Bostock's three-part [General Update Pattern tutorials](https://bl.ocks.org/mbostock/3808234). (Bostock is the creator of D3). I then worked to translate this pattern from the horizontal linear axis layout in Bostock's tutorials to what is called a "pack" layout which is hierarchical and typically represented as circles nested within other circles. Because of the hierarchical nature, and my basic unfamiliarity with the API, this took quite a bit of trial and error on my part. I was delighted to pull it off in the end as it gives me some confidence that I will be able to have better control over agents in models that have increasing complexity. I plan to go back now and improve the implementation of the last weeks simulation.
 
 ####Next: Introducing evoluational reinforcement and bias
 
