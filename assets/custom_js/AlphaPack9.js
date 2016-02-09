@@ -1,6 +1,6 @@
 var data = {
     "id": "charContainer",
-    "value": "100",
+    "value": 100,
     "children": []
 };
 
