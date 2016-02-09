@@ -42,7 +42,7 @@ function update(data) {
 
     // ENTER
     var enterNode = node.enter().append("g")
-        .attr("class", "node")
+        .attr("class", "node");
         
     enterNode.append("circle")
         .attr("class", function(d, i) {
