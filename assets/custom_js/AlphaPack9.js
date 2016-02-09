@@ -61,7 +61,7 @@ function update(data) {
     node.transition().duration(750)
         .attr("transform", function(d) {
             return "translate(" + d.x + ", " + d.y + ")";
-        })
+        });
         
     node.selectAll("circle")
       .transition()
