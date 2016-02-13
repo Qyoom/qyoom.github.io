@@ -102,6 +102,7 @@ data.children = objectify(alphabet);
 update(data);
 
 setInterval(function() {
+    //console.log("===>>> data.children: " + data.children);
     var newChildren = d3.shuffle(alphabet)
         .slice(0, Math.floor(Math.random() * 26))
         .sort();
