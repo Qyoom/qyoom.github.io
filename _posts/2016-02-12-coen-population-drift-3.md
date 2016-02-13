@@ -18,6 +18,6 @@ In this third and final post about the principles of natural selection introduce
 <script src="/assets/js_libs/underscore-min.js"></script>
 <script src="/assets/custom_js/AlphaPack9_bias_3.js"></script>
 
-[Javascript code used in this visualization](https://github.com/Qyoom/qyoom.github.io/tree/master/assets/custom_js/AlphaPac9_bias_3.js)
+[Javascript code used in this visualization](https://github.com/Qyoom/qyoom.github.io/tree/master/assets/custom_js/AlphaPack9_bias_3.js)
 
 
