@@ -18,7 +18,7 @@ In this third and final post about the principles of natural selection introduce
 <script src="/assets/js_libs/underscore-min.js"></script>
 <script src="/assets/custom_js/AlphaPack9_bias_3.js"></script>
 
-With the integration of reinforcement, the necessary principles of natural selection are in place. A picture emerges in which certain traits that give individual members competitive advantage are persisted through successive cycles of replication. This bias creates a reinforcement that shifts the population toward a change where one trait becomes dominant and another is eliminated. Hence, natural selection, as Coen illustrates, becomes a key driver in the process of evolution.
+With the inclusion of reinforcement, the necessary principles of natural selection are in place. A picture emerges in which certain traits that give individual members competitive advantage are persisted through successive cycles of replication. This bias creates a reinforcement that shifts the population toward a change where one trait becomes dominant and another is eliminated. Hence, natural selection, as Coen illustrates, becomes a key driver in the process of evolution.
 
 [Javascript code used in this visualization](https://github.com/Qyoom/qyoom.github.io/tree/master/assets/custom_js/AlphaPack9_bias_3.js)
 
