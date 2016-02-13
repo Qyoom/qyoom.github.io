@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Natural Selection and Population Drift (Part 3)"
-date:   2016-01-20 11:18:25 -0800
+date:   2016-02-12 10:18:25 -0800
 ---
 In this third and final post about the principles of natural selection introduced in Chapter 1 of Enrico Coen's *Cells to Civilizations, The Principles of Change That Shape Life* I include treatment of The fourth principle, reinforcement. A variant feature of marbledom—the color orange—is given a 66 to 44 selection advantage during cycles of persistence (i.e. reproduction). Although this advantage builds upon itself through successive generations an interesting phenomenon occurs, as pointed out by Coen. As the advantaged orange marbles approach saturation in the population, their rate of increase slows. Coen represents this by the prototypical 'S' curve where the rate of convergence is limited by there being fewer blue marbles to select and eliminate.
 
