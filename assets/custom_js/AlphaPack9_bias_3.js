@@ -176,19 +176,13 @@ function update(data) {
 var ratioField = d3.select("#ratio")
     .append("text");
 
-// var startButton = d3.select('button').on('click', function() {
-//     console.log("CLICK");
-//     d3.select('button').remove();
-//     start();
-// });
-
 var startBtn = $('<input id="start", type="button" value="Start"/>');
-$("#control").append(startBtn);
-$("#start").on('click',function(){
-    console.log("<1>CLICK");
-    $(this).remove();
-    start();
-});
+// $("#control").append(startBtn);
+// $("#start").on('click',function(){
+//     console.log("<1>CLICK");
+//     $(this).remove();
+       start();
+// });
 
 function start() {
 
