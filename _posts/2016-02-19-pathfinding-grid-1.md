@@ -5,7 +5,7 @@ date:   2016-02-19 10:18:25 -0800
 ---
 Believe it or not: The grid below is a graph. What is a graph? A graph is a set of nodes, or vertices, that are connected by paths, also called edges. The term "edge" in a grid is particularly salient as each cell ajoins each of its neighbors along its edges. The path from one node, or cell, to its neighbor is at its edge. If you draw your cursor across the grid below you will freely follow paths sequentially connecting nodes which are jam-packed like eggs in a carton, tiles in a mosaic, atoms in a crystal, or people in a packed subway car.
 
-####Draw your cursor across grid
+####Draw your cursor across grid (not set up for touch device)
 
 <div id="grid"></div>
 
