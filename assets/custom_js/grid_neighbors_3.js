@@ -9,10 +9,6 @@ function grid()
     var width = numCols * cellSize;
     var height = numRows * cellSize;
 
-    // mouseover, mouseout
-    var over = 1;
-    var out = 2;
-
     var gridData = cellData();
 
     /** TODO: NIX Diagnostics *******************************/
@@ -57,7 +53,9 @@ function grid()
 }
 
 /**
- *   cellData()        returns an two dimensional array of rows and columns
+ *   cellData()        Returns a one dimentional array.
+ *                     Row and column structure are formulated
+ *                     within cells themselves.
  */
 function cellData()
 {
@@ -117,7 +115,7 @@ var directions = [
     [-1, 1]   // south-west
 ];
 
-function neighbors(cell, overout) {
+function neighbors(cell, context) {
     // loop all 8 directions
     _.each(directions, function(dir) {
         var neighborIndex = [
@@ -127,7 +125,7 @@ function neighbors(cell, overout) {
 
         if(nodesContains(neighborIndex)) {
             var neighbor = d3.select("#r" + neighborIndex[0] + "c" + neighborIndex[1]);
-            neighbor.style("fill", overout==1 ? "#80FF80" : "#FFF");
+            neighbor.style("fill", context===over ? "#80FF80" : "#FFF");
         }
     });
 }
@@ -147,6 +145,10 @@ var anchorElement = '#grid';
 var numCols = 38;
 var numRows = 15;
 var cellSize = 18;
+
+// mouseover, mouseout
+var over = 1;
+var out = 2;
 
 // Starts here
 grid();
