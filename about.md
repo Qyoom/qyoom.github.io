@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi, my name is Richard Walker. I'm a Scala and Javascript programmer, a former (and rebooting) graphic designer, a one time ESL teacher, an incurable journaler. I live at the library, and a local hacker space, and a burrow deep in the woods. I keep my mind on a very long leash. My list of heros include Amy Goodman, Leonardo Fibonacci, Benoit Mandelbrot, Marcel Duchamp, Saul Steinberg, Gertrude Stein, Rube Goldberg, Krazy Kat, Ai Weiwei, the brothers Quay, to name a random few...
+Hi, my name is Richard Walker. I'm a Scala, Python, and Javascript programmer, a former graphic designer, a one time ESL teacher, an incurable journaler.
 
 ### Thinking in Models
 
